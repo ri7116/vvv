@@ -1,10 +1,10 @@
 const mysql = require("mysql2");
 //createConnection vs creatPool
 const db = mysql.createPool({
-  host: "cooperation6team.c3uk8eymwvsn.ap-northeast-2.rds.amazonaws.com",
-  user: "yoo",
-  password: "kdkd8743",
-  database: "cooperation6team",
+  host: "",
+  user: "",
+  password: "",
+  database: "",
 });
 
 // DB 연결 확인 (createPool에서는 connect 사용 불가)
